@@ -1,0 +1,17 @@
+server:
+  port: 8045
+
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://localhost:3307/post?useUnicode=true&characterEncoding=utf8
+    username: root
+    password:
+
+aws:
+  s3:
+    accessKey:
+    secret-key:
+    bucket-name:
+
+
+
